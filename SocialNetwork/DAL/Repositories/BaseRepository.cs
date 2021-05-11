@@ -37,7 +37,7 @@
 
         private IDbConnection CreateConnection()
         {
-            return new SQLiteConnection("Data Source = DAL/DB/social_network.db; Version = 3");
+            return new SQLiteConnection("Data Source = /Learning/C++/code/SkillFactory/c#/SocialNetwork/SocialNetwork/DAL/DB/social_network.db; Version = 3");
         }
     }
 }
